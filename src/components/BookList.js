@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { BookContext } from '../contexts/BookContext';
-import bookThumb from '../book.png';
+import bookThumb from '../images/book.png';
 
 const BookList = () => {
     const { books, deleteBook } = useContext(BookContext); // Receives a context object and returns the current value of the context
