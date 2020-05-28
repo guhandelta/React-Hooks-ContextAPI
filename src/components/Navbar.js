@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className='z-depth-0'>
                 <div className='nav-wrapper'>
                     <a href='/' className='brand'>
-                        book<span>app</span>
+                        Book<span>app</span>
                     </a>
                     <a
                         href='#!'
@@ -22,13 +22,13 @@ const Navbar = () => {
                         <i className='material-icons'>menu</i>
                     </a>
                     <ul className='right hide-on-med-and-down'>
-                        <li>
+                        <li className="links">
                             <Link to='/'>Home</Link>
                         </li>
-                        <li>
+                        <li className="links">
                             <Link to='/about'>About</Link>
                         </li>
-                        <li>
+                        <li className="links">
                             <Link to='/contact'>Contact</Link>
                         </li>
                     </ul>

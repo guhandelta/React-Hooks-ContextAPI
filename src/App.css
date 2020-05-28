@@ -20,6 +20,9 @@ nav .brand span {
   background: var(--bg-grey);
   border-bottom: 1px solid var(--border);
 }
+.links{
+  font-family: 'Lobster', cursive;
+}
 
 /* book styles */
 .card.book {
